@@ -11,6 +11,9 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
     <link rel="stylesheet" href="/css/swiper.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 
     <script src="https://use.fontawesome.com/5039706e6b.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -209,12 +212,7 @@
                         <!-- Top Search
                         ============================================= -->
                         <div id="top-search">
-                            <a href="#" id="top-search-trigger">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </a>
-                            <form action="search.php" method="get">
-                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-                            </form>
+                            
                         </div><!-- #top-search end -->
 
                     </nav><!-- #primary-menu end -->
@@ -279,273 +277,109 @@
                 <section id="section-work" class="page-section topmargin-lg">
 
                     <div class="heading-block center">
-                        <h2>Trabajos</h2>
-                        <span>...</span>
+                        <h2><span>Trabajos</span></h2>
                     </div>
 
-                    <div class="col_full nobottommargin">
-                            <div class="feature-box">
-                                <div class="fbox-desc">
-                                    <h3>Gráfica</h3>
-                                    <span>Banner - Cartelería general - Gigantografía - Gráfica vehicular - Neón - Señalización</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Toldos</h3>
-                                    <span>Abanico - Arquitectura textil - Brazo invisible - De patio - Deslizante - Fijos - Punto recto - Vertical</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Carpas</h3>
-                                    <span>Abside - Accesorios en general - Aleros - Canadienses- Carpas para eventos - Comedores cerramientos para casa rodante</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Cocheras</h3>
-                                    <span>En cobertura - En media sombra</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Cortinas corredizas y fijas</h3>
-                                    <span>Cortinas para frigoríficos - Cortinas y puertas corredizas</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Cortinas roller</h3>
-                                    <span>Blackout - Screen</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Herrería</h3>
-                                    <span>Estructuras de todo tipo - Portones - Rejas</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Inflables</h3>
-                                    <span>Clásicos - Con tobogan - Especiales</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Lonas para transportes</h3>
-                                    <span>Camionetas - Chasis - Lonas de forma - Sider</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Marquesinas</h3>
-                                    <span></span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Náutica</h3>
-                                    <span>Lonas para embarcaciones</span>
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Piletas</h3>
-                                    <span>Accesorios en general - Cubre piletas a medida - Piletas con caño estructural</span>
-                                </div>
-                                <div class="fbox-desc">
-
-                                </div>
-                                <div class="fbox-desc">
-                                    <h3>Redes</h3>
-                                    <span>Para canchas de fútbol - Para inflables - Redes en general</span>
+                    <div class="col_full nobottommargin center">
+                        <div class="feature-box">
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Gráfica</strong>: Banner - Cartelería general - Gigantografía - Gráfica vehicular - Neón - Señalización</p>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Toldos</strong>: Abanico - Arquitectura textil - Brazo invisible - De patio - Deslizante - Fijos - Punto recto - Vertical</p>
+                                <div class="carousel-toldos">
+                                    <div><img src="/images/works/toldos/abanico/abanico-1.jpg" /></div>
+                                    <div><img src="/images/works/toldos/abanico/abanico-2.jpg" /></div>
+                                    <div><img src="/images/works/toldos/abanico/abanico-31.jpg" /></div>
+                                    <div><img src="/images/works/toldos/arquitectura-textil/toldo-arquitectura-textil.jpg" /></div>
+                                    <div><img src="/images/works/toldos/brazo-invisible/brazo-invisible-1.jpg" /></div>
+                                    <div><img src="/images/works/toldos/brazo-invisible/brazo-invisible-2.jpg" /></div>
+                                    <div><img src="/images/works/toldos/brazo-invisible/brazo-invisible-3.jpg" /></div>
+                                    <div><img src="/images/works/toldos/brazo-invisible/brazo-invisible-4.jpg" /></div>
+                                    <div><img src="/images/works/toldos/de-patio/toldos-patio-1.jpg" /></div>
+                                    <div><img src="/images/works/toldos/de-patio/toldos-patio-2.jpg" /></div>
+                                    <div><img src="/images/works/toldos/de-patio/toldos-patio-3.jpg" /></div>
+                                    <div><img src="/images/works/toldos/deslizante/toldo-deslizante-1.jpg" /></div>
+                                    <div><img src="/images/works/toldos/deslizante/toldo-deslizante-2.jpg" /></div>
+                                    <div><img src="/images/works/toldos/deslizante/toldo-deslizante-3.jpg" /></div>
+                                    <div><img src="/images/works/toldos/deslizante/toldo-deslizante-4.jpg" /></div>
+                                    <div><img src="/images/works/toldos/deslizante/toldo-deslizante-5.jpg" /></div>
+                                    <div><img src="/images/works/toldos/fijos/toldo-fijo-1.jpg" /></div>
+                                    <div><img src="/images/works/toldos/punto-recto/toldo-punto-recto-1.jpg" /></div>
+                                    <div><img src="/images/works/toldos/punto-recto/toldo-punto-recto-5.jpg" /></div>
+                                    <div><img src="/images/works/toldos/punto-recto/toldo-punto-recto-6.jpg" /></div>
+                                    <div><img src="/images/works/toldos/punto-recto/toldo-punto-recto-7.jpg" /></div>
+                                    <div><img src="/images/works/toldos/vertical/toldo-vertical-1.jpg" /></div>
+                                    <div><img src="/images/works/toldos/vertical/toldo-vertical-5.jpg" /></div>
+                                    <div><img src="/images/works/toldos/vertical/toldo-vertical-6.jpg" /></div>
                                 </div>
                             </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Carpas</strong>: Abside - Accesorios en general - Aleros - Canadienses- Carpas para eventos - Comedores cerramientos para casa rodante</p>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Cocheras</strong>: En cobertura - En media sombra</p>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Cortinas corredizas y fijas</strong>: Cortinas para frigoríficos - Cortinas y puertas corredizas</p>
+                                <div class="carousel-cortinas-corredizas-y-fijas">
+                                    <div><img src="/images/works/cortinas-corredizas-fijas/para-frigorificos/cortinas-para-frigorifico-1.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-corredizas-fijas/para-frigorificos/cortinas-para-frigorifico-2.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-corredizas-fijas/para-frigorificos/cortinas-para-frigorifico-3.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-corredizas-fijas/para-frigorificos/cortinas-para-frigorifico-4.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-corredizas-fijas/para-frigorificos/cortinas-para-frigorifico-6.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-corredizas-fijas/para-frigorificos/cortinas-para-frigorifico-7.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-corredizas-fijas/para-frigorificos/cortinas-para-frigorifico-8.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-corredizas-fijas/para-frigorificos/cortinas-para-frigorifico-51.jpg" /></div>
+                                </div>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Cortinas roller</strong>: Blackout - Screen</p>
+                                <div class="carousel-cortinas-roller">
+                                    <div><img src="/images/works/cortinas-roller/blackout/roller-blackout-1.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-roller/blackout/roller-blackout-2.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-roller/blackout/roller-blackout-4.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-roller/blackout/roller-blackout-5.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-roller/blackout/roller-blackout-6.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-roller/blackout/roller-blackout-31.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-roller/screen/roller-screen-1.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-roller/screen/roller-screen-2.jpg" /></div>
+                                    <div><img src="/images/works/cortinas-roller/screen/roller-screen-3.jpg" /></div>
+                                </div>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Herrería</strong>: Estructuras de todo tipo - Portones - Rejas</p>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Inflables</strong>: Clásicos - Con tobogan - Especiales</p>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Lonas para transportes</strong>: Camionetas - Chasis - Lonas de forma - Sider</p>
+                                <div class="carousel-lonas-para-transporte">
+                                    <div><img src="/images/works/lonas-para-transporte/camionetas/lonas-camionetas-1.jpg" /></div>
+                                    <div><img src="/images/works/lonas-para-transporte/camionetas/lonas-camionetas-2.jpg" /></div>
+                                    <div><img src="/images/works/lonas-para-transporte/camionetas/lonas-camionetas-3.jpg" /></div>
+                                    <div><img src="/images/works/lonas-para-transporte/camionetas/lonas-camionetas-4.jpg" /></div>
+                                    <div><img src="/images/works/lonas-para-transporte/camionetas/lonas-camionetas-5.jpg" /></div>
+                                    <div><img src="/images/works/lonas-para-transporte/camionetas/lonas-camionetas-7.jpg" /></div>
+                                    <div><img src="/images/works/lonas-para-transporte/camionetas/lonas-camionetas-61.jpg" /></div>
+                                    <div><img src="/images/works/lonas-para-transporte/lonas-de-forma/lonas-transporte-forma-2.jpg" /></div>
+                                    <div><img src="/images/works/lonas-para-transporte/lonas-de-forma/lonas-transporte-forma-11.jpg" /></div>
+                                </div>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Marquesinas</strong> </p>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Náutica</strong>: Lonas para embarcaciones</h3>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Piletas</strong>: Accesorios en general - Cubre piletas a medida - Piletas con caño estructural</p>
+                            </div>
+                            <div class="fbox-desc bottommargin">
+                                <p><strong>Redes</strong>: Para canchas de fútbol - Para inflables - Redes en general</p>
+                            </div>
                         </div>
-
-                    <div class="container clearfix center">
-
-                        <!-- Portfolio Items
-                        ============================================= -->
-                        <div id="portfolio" class="portfolio grid-container portfolio-nomargin clearfix">
-
-                            <article class="portfolio-item pf-media pf-icons">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single.php">
-                                        <img src="/images/portfolio/4/1.jpg" alt="Gráfica">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Gráfica</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Toldos">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Toldos</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Toldos">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Carpas</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Cocheras">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Cocheras</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Cortinas corredizas y fijas">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Cortinas corredizas y fijas</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Cortinas roller">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Cortinas roller</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Herrería">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Herrería</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Inflables">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Inflables</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Lonas para transportes">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Lonas para transportes</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Marquesinas">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Marquesinas</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Náutica">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Náutica</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Piletas">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Piletas</h3>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-illustrations">
-                                <div class="portfolio-image">
-                                    <img src="/images/portfolio/4/2.jpg" alt="Redes">
-                                    <div class="portfolio-overlay">
-                                        <a href="/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="search-plus"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3>Redes</h3>
-                                </div>
-                            </article>
-                            
-                            <!--
-                            <article class="portfolio-item pf-graphics pf-illustrations">
-                                <div class="portfolio-image">
-                                    <a href="#">
-                                        <img src="/images/portfolio/4/6.jpg" alt="Mac Sunglasses">
-                                    </a>
-                                    <div class="portfolio-overlay" data-lightbox="gallery">
-                                        <a href="/images/portfolio/full/6.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                        <a href="/images/portfolio/full/6-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                        <a href="/images/portfolio/full/6-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                        <a href="/images/portfolio/full/6-3.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                        <a href="portfolio-single-gallery.php" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single-gallery.php">Shake It!</a></h3>
-                                    <span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-                                </div>
-                            </article>
-
-                            <article class="portfolio-item pf-uielements pf-icons">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single-video.php">
-                                        <img src="/images/portfolio/4/7.jpg" alt="Backpack Contents">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <a href="http://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        <a href="portfolio-single-video.php" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single-video.php">Backpack Contents</a></h3>
-                                    <span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-                                </div>
-                            </article>
-                            -->
-
-                        </div><!-- #trabajos end -->
-
                     </div>
 
                 </section>
@@ -553,8 +387,8 @@
                 <section id="section-contact" class="page-section">
 
                     <div class="heading-block title-center">
-                        <h2>CONTACTO</h2>
-                        <span>¿Tiene alguna consulta? Contactenos utilizando el iguiente formulario.</span>
+                        <h2><span>CONTACTO</span></h2>
+                        <span>¿Tiene alguna consulta? Contactenos utilizando el siguiente formulario.</span>
                     </div>
 
                     <div class="container clearfix">
@@ -752,7 +586,7 @@
                     </div>
 
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
- contacto@lonera-grafica.com.ar <span class="middot">&middot;</span> <i class="fa fa-headphones" aria-hidden="true"></i> +54-11-4652-1659 
+ info@lonera-grafica.com.ar <span class="middot">&middot;</span> <i class="fa fa-headphones" aria-hidden="true"></i> +54-11-4652-1659 
                     </div>
 
                 </div>
@@ -771,6 +605,7 @@
     <!-- External JavaScripts
     ============================================= -->
     <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
     <!-- Footer Scripts
     ============================================= -->
@@ -780,7 +615,7 @@
     <script type="text/javascript" src="/js/jquery.gmap.js"></script>
 
     <script type="text/javascript">
-      
+
         jQuery('#google-map').gMap({
 
             address: 'Crovara 2817, La Tablada, Buenos Aires',
@@ -808,24 +643,39 @@
             }
 
         });
-
-        jQuery('#template-contactform').submit(function(){
-            console.log('ppe');
-             $.ajax({
-               url: "/enviar-consulta.php",
-               global: false,
-               success: function(){
-
-               }, 
-               error: function(){
-                
-               }
-             });
-            return false;
-        });
+        
     </script>
 
-<script>jQuery(document).ready(function(e){e("#primary-menu > ul li").find('.new-badge').children("div").append('<span class="label label-danger" style="display:inline-block;margin-left:8px;text-transform:none;">New</span>')});</script>
+<script>
+jQuery(document).ready(function(){
+
+    jQuery('#template-contactform-submit').click(function(){
+         $.ajax({
+           url: "/enviar-consulta.php",
+           global: false,
+           success: function(){
+
+           }, 
+           error: function(){
+            
+           }
+         });
+        return false;
+    });
+
+    jQuery("div[class^='carousel']").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true, 
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+
+}); 
+</script>
 
 </body>
 </html>
