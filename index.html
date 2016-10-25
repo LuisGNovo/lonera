@@ -870,7 +870,7 @@
                                         La Tablada, Buenos Aires<br>
                                     </address>
                                     <abbr title="Número de Télefono"><strong>Télefono:</strong></abbr> (+54) 11 46521659<br>
-                                    <abbr title="Dirección de Email"><strong>Email:</strong></abbr> info@lonera-grafica.com.ar
+                                    <abbr title="Dirección de Email"><strong>Email:</strong></abbr> info@loneracrovara.com
                                 </div>
 
                         </div>
@@ -920,7 +920,7 @@
                     </div>
 
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
- info@lonera-grafica.com.ar <span class="middot">&middot;</span> <i class="fa fa-headphones" aria-hidden="true"></i> +54-11-4652-1659 
+ info@loneracrovara.com <span class="middot">&middot;</span> <i class="fa fa-headphones" aria-hidden="true"></i> +54-11-4652-1659 
                     </div>
 
                 </div>
@@ -945,7 +945,6 @@
     <!-- Footer Scripts
     ============================================= -->
     <script type="text/javascript" src="/js/functions.js"></script>
-
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key= AIzaSyApwOCHNUYsMEE2jkEgo5Aubab3bsAYRm8"></script>
     <script type="text/javascript" src="/js/jquery.gmap.js"></script>
 
@@ -990,16 +989,20 @@ jQuery(document).ready(function(){
         $(clase).colorbox({rel:clase});
     });
 
+    // Envio del formulario de consulta
+    jQuery('#template-contactform').submit(function(){
 
-    jQuery('#template-contactform-submit').click(function(){
          $.ajax({
-           url: "/enviar-consulta.php",
-           global: false,
-           success: function(){
-
+           type: "POST", 
+           url: "/enviar-consulta.php", 
+           cache: false, 
+           global: false, 
+           data: $('#template-contactform').serialize(), 
+           success: function(data){
+            console.log('Response ok', data);
            }, 
-           error: function(){
-            
+           error: function(data){
+            console.log('Response error', data);
            }
          });
         return false;
